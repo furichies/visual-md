@@ -1,0 +1,8 @@
+visual-md (0.1.0) unstable; urgency=medium
+
+  * Primera versión empaquetada de visual-md.
+  * Visor/editor GTK3 flotante, translúcido y siempre encima.
+  * Integración con el escritorio mediante .desktop e icono.
+  * Instalación del comando visual-md para todos los usuarios.
+
+ -- furichies <furichies@yandex.com>  Sat, 24 Oct 2026 23:45:00 +0200

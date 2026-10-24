@@ -1,0 +1,6 @@
+README.md usr/share/doc/visual-md
+ejemplo.md usr/share/doc/visual-md
+LICENSE usr/share/doc/visual-md
+debian/visual-md.desktop usr/share/applications
+debian/visual-md.svg usr/share/icons/hicolor/scalable/apps
+debian/visual-md.1 usr/share/man/man1

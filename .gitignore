@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+debian/.debhelper/
+debian/visual-md/
+debian/files
+debian/debhelper-build-stamp
+debian/*.substvars
+*.buildinfo
+*.changes

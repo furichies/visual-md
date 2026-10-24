@@ -1,0 +1,55 @@
+.TH VISUAL-MD 1 "24 Oct 2026" "visual-md 0.1.0" "User Commands"
+.SH NAME
+visual-md \- visor/editor de texto flotante y translúcido
+.SH SYNOPSIS
+.B visual-md
+[\fIFICHERO\fR]
+.SH DESCRIPTION
+.B visual-md
+es una pequeña aplicación GTK3 que muestra un fichero de texto o Markdown en
+una ventana translúcida que se mantiene por encima de las demás.
+La ventana se puede mover desde la barra de título y el texto se puede
+seleccionar, copiar y pegar como en cualquier editor.
+.PP
+La opacidad inicial es del 72 % y se puede ajustar con el teclado.
+.SH OPTIONS
+.TP
+.B \-\-help, \-h
+Muestra la ayuda y termina.
+.TP
+.B \-\-version
+Muestra la versión y termina.
+.SH SHORTCUTS
+.TP
+.B Ctrl+O
+Abrir un fichero.
+.TP
+.B Ctrl+S
+Guardar.
+.TP
+.B Ctrl+Shift+S
+Guardar como.
+.TP
+.B Ctrl+R
+Recargar desde disco.
+.TP
+.B Ctrl+Q
+Salir.
+.TP
+.B Ctrl++
+Aumentar la opacidad.
+.TP
+.B Ctrl+\-
+Reducir la opacidad.
+.SH ENVIRONMENT
+.TP
+.B DISPLAY
+Pantalla X11. La opacidad y la función de mantener la ventana encima
+requieren una sesión X11 con compositor.
+.SH FILES
+.TP
+.I /usr/share/doc/visual-md/ejemplo.md
+Fichero de ejemplo instalado con el paquete.
+.SH SEE ALSO
+.BR gedit (1),
+.BR picom (1)

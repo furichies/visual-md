@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=visual-md
+GenericName=Visor de texto flotante
+Comment=Visor/editor de texto translúcido y siempre encima
+Exec=visual-md %f
+TryExec=visual-md
+Icon=visual-md
+Terminal=false
+Categories=Utility;TextEditor;
+Keywords=markdown;text;overlay;transparent;notes;
+MimeType=text/markdown;text/x-markdown;
+StartupNotify=true
+StartupWMClass=visual-md
